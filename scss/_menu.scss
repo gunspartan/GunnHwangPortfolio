@@ -56,7 +56,7 @@
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    float: left;
+    float: right;
     width: 50%;
     height: 100vh;
     overflow: hidden;
@@ -91,8 +91,9 @@
       width: 250px;
       height: 250px;
       background: url('../img/portrait.jpg');
+      background-size: contain;
       border-radius: 50%;
-      border: solid 3px $seconday-color;
+      border: solid 3px $secondary-color;
     }
   }
 
@@ -106,13 +107,13 @@
     }
 
     &.current > a {
-      color: $seconday-color;
+      color: $secondary-color;
     }
   }
 
   .nav-link {
     display: inline-block;
-    position: relative;
+    position: relative; 
     font-size: 30px;
     text-transform: uppercase;
     padding: 1rem 0;
@@ -122,7 +123,7 @@
     @include easeOut;
 
     &:hover {
-      color: $seconday-color;
+      color: $secondary-color;
     }
   }
 }

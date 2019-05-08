@@ -1,5 +1,5 @@
 @import 'config';
-@import 'menu';
+@import 'menu.scss';
 
 * {
   box-sizing: border-box;
@@ -45,7 +45,7 @@ header {
 }
 
 .text-secondary {
-  color: $seconday-color;
+  color: $secondary-color;
 }
 
 main {
@@ -59,7 +59,7 @@ main {
       padding: 0.4rem;
 
       &:hover {
-        color: $seconday-color;
+        color: $secondary-color;
         @include easeOut();
       }
     }
