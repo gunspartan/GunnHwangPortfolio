@@ -56,7 +56,7 @@
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    float: right;
+    float: left;
     width: 50%;
     height: 100vh;
     overflow: hidden;
@@ -69,6 +69,7 @@
     list-style: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
+    align-self: flex-end;
 
     &.show {
       // Slide in from top
@@ -78,6 +79,7 @@
 
   // Branding Side
   &-branding {
+    //position: relative;
     background: $primary-color;
     transform: translate3d(0, 100%, 0);
     @include easeOut;
