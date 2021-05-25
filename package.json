@@ -11,7 +11,7 @@
   "author": "Gunn Hwang",
   "license": "ISC",
   "dependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^3.2.0",
     "node-sass": "^4.12.0"
   }
 }
